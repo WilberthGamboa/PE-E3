@@ -17,7 +17,7 @@ int main(){
 
     char frase[MAX_CARACTERES];
     do{
-        printf("Ingrese la frase, (25 caracteres incluyendo caracter nulo xd)\n");
+        printf("Ingrese la frase, (25 caracteres incluyendo caracter nulo)\n");
         gets(frase);
 
     }while(validar(frase));
